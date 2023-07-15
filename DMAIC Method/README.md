@@ -6,7 +6,6 @@ This project aims to show how to make functionality using HTML, CSS, and JavaScr
 ## Table of Contents
 
 - [Project Files](#project-files)
-- [Instructions](#instructions)
 - [HTML Structure](#html-structure)
 - [CSS Styles](#css-styles)
 - [JavaScript Functionality](#javascript-functionality)
