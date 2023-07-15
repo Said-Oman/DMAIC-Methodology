@@ -1,0 +1,104 @@
+<!DOCTYPE >
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>DMAIC Methodology</title>
+  <!-- Load Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">  <!-- Load Styles -->
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+  <!-- HTML Follows BEM naming conventions 
+  IDs are only used for sections to connect menu achors to sections -->
+  <header class="page__header">
+    <nav class="navbar__menu">
+      <!-- Navigation starts as empty UL that will be populated with JS -->
+      <ul id="navbar__list"></ul>
+    </nav>
+  </header>
+  <main>
+    <header class="main__hero">
+      <h1>DMAIC Methodology </h1>
+    </header>
+    <!-- Each Section has an ID (used for the anchor) and 
+    a data attribute that will populate the li node.
+    Adding more sections will automatically populate nav.
+    The first section is set to active class by default -->
+    <section id="section1" data-nav="Define" class="your-active-class" >
+      <div class="landing__container">
+          <h2>Define: Defining the Problem and Project Goals</h2>
+          <p>The Define stage is the first step in the DMAIC Method. It involves clearly defining the problem or
+              opportunity and establishing the project goals. This stage sets the foundation for the entire
+              improvement project.</p>
+          <p>During this stage, it is essential to gather relevant data, identify the stakeholders, and define the
+              project scope. It is crucial to have a clear understanding of the current state and the desired
+              future state to set achievable goals and objectives.</p>
+          <p>The Define stage provides a roadmap for the rest of the DMAIC process and helps ensure that the
+              improvement efforts align with the organization's strategic objectives.</p>
+      </div>
+  </section>
+  <section id="section2" data-nav="Measure">
+    <div class="landing__container">
+        <h2>Measure: Measuring and Gathering Data</h2>
+        <p>In the Measure stage, the focus is on collecting data related to the problem identified in the Define
+            stage. This data provides a baseline for evaluating the current performance and helps identify the
+            root causes of the problem.</p>
+        <p>During this stage, various measurement techniques are employed, such as data collection plans,
+            sampling methods, and statistical analysis. The goal is to gather accurate and reliable data to
+            support the analysis and decision-making process.</p>
+        <p>The Measure stage helps quantify the problem, identify process variations, and establish a solid
+            foundation for data-driven decision making in subsequent stages.</p>
+    </div>
+</section>
+<section id="section3" data-nav="Analyze">
+    <div class="landing__container">
+        <h2>Analyze: Analyzing and Identifying Root Causes</h2>
+        <p>The Analyze stage involves analyzing the data collected in the Measure stage to identify the root
+            causes of the problem. This stage aims to understand the underlying factors contributing to the
+            issue.</p>
+        <p>Various analysis techniques, such as cause-and-effect diagrams, Pareto charts, and hypothesis testing,
+            are used to identify potential causes and prioritize them based on their impact.</p>
+        <p>The Analyze stage helps organizations gain insights into the problem and determine the critical areas
+            that require improvement. It provides a deeper understanding of the processes and helps identify
+            potential solutions.</p>
+    </div>
+</section>
+<section id="section4" data-nav="Improve">
+    <div class="landing__container">
+        <h2>Improve: Implementing Solutions and Evaluating Results</h2>
+        <p>The Improve stage focuses on developing and implementing solutions to address the root causes
+            identified in the Analyze stage. This stage aims to improve the process and eliminate or mitigate
+            the identified issues.</p>
+        <p>During this stage, potential solutions are generated, evaluated, and selected. Piloting and testing
+            are conducted to assess the effectiveness of the proposed solutions. Once the optimal solution is
+            identified, it is implemented, and the results are monitored and evaluated.</p>
+        <p>The Improve stage aims to achieve significant improvements and optimize the process to meet the
+            desired goals and objectives.</p>
+    </div>
+</section>
+<section id="section5" data-nav="Control">
+    <div class="landing__container">
+        <h2>Control: Implementing Controls and Sustaining Improvements</h2>
+        <p>The Control stage focuses on implementing controls and sustaining the improvements achieved in the
+            Improve stage. It aims to ensure that the improvements are sustained in the long term and become
+            part of the standard operating procedures.</p>
+        <p>In this stage, control measures, such as standard operating procedures, performance metrics, and
+            ongoing monitoring, are established. Training and communication plans are developed to ensure
+            employees understand their roles and responsibilities in maintaining the improvements.</p>
+        <p>The Control stage helps organizations prevent the recurrence of the problem and continuously monitor
+            the process to ensure its stability and effectiveness.</p>
+    </div>
+</section>
+  </main>
+  <button id="scrollToTopBtn" title="Go to top">Top</button>
+  <footer class="page__footer">
+    <p>&copy Udacity</p>
+  </footer>
+
+      <!-- Load JavaScript -->
+      <script src="js/app.js"></script>
+
+</body>
+</html>
